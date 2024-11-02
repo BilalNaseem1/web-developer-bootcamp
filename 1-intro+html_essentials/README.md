@@ -55,3 +55,58 @@ In html, paragraph is anything we want to group together, images, text etc.
 
 ### \<h1-6>
 ![alt text](image-4.png)
+
+## HTML Boilerplate/Skeleton
+HTML we have written uptil now is invalid. HTML skeleton is required in every html web page. We can type `! + TAB` to generate all boilerplate below:
+
+```html
+<!DOCTYPE html>
+
+<html>
+    <head> // for metadata
+        Title // what comes in tab name
+    </head>
+
+    <body> 
+    everything here.....
+    </body>
+
+</html>
+```
+
+- shift + 5 = format html document
+- or autoformat whenever save
+
+## Lists
+- ordered list = `ol`
+- unordered list = `ul`
+- press down for new li
+
+```html
+<ul>
+    <li> abc </li>
+    <li> def </li>
+</ul>
+```
+
+## Anchor element
+adds hyperlink
+
+```html
+<a href = "destination.com"> website </a>
+<a href = "mailto:abc@destination.com"> website </a>
+```
+
+## Images
+- has no closing tag
+- has `src` attribute
+
+
+```html
+<img src="" alt="">
+```
+
+### Comments
+```html
+<!--  -->
+```
